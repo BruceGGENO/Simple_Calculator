@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 400px;
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ body {
     font-size: 5rem;
     color: white;
     border: none;
-    text-align: right;
+    text-align: left;
     background-color: hsl(0, 0%, 20%);
 }
 
