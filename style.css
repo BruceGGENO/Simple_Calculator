@@ -10,8 +10,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 400px;
+    max-width: 450px;
     overflow: hidden;
+    height: 600px;
 }
 
 #display {
@@ -27,13 +28,13 @@ body {
 #keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 12px;
     padding: 25px;
 }
 
 button {
-    width: 100px;
-    height: 100px;
+    width: 70%;
+    height: 70px;
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 0%, 30%);
