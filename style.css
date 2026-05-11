@@ -3,13 +3,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
+    background-color: rgb(50, 49, 49);
 }
 
 #calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
+    border: 5px solid;
     max-width: 450px;
     overflow: hidden;
     height: 600px;
@@ -35,7 +37,7 @@ body {
 button {
     width: 70%;
     height: 70px;
-    border-radius: 50px;
+    border-radius: 50%;
     border: none;
     background-color: hsl(0, 0%, 30%);
     color: white;
@@ -53,13 +55,13 @@ button:active {
 }
 
 .operator-btn {
-    background-color: hsl(40, 94%, 48%);
+    background-color: hsl(207, 94%, 48%);
 }
 
 .operator-btn:hover {
-    background-color: hsl(40, 94%, 58%);
+    background-color: hsl(207, 94%, 58%);
 }
 
 .operator-btn:active {
-    background-color: hsl(40, 94%, 68%);
+    background-color: hsl(207, 94%, 68%);
 }
